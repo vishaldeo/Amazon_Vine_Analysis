@@ -76,3 +76,9 @@ From the total reviews `50,753` , we have `1,080` `VINE` reviews which is approx
 * 46.4% non vine members gave 5 star.
 
 ## Summary 
+
+After analysising the result , we observed that the VINE members are not biased while reviewing the products for their 5 star rating. The VINE members provide the true rating and more critic on the product reviewing. NON Vine members are little higher percentage for their reviwing of 5 star electronic product.  In this product list we only consider the 50% , we can get the correct pattern by including more data and predict the VINE members star rating. 
+
+To get the actual behavior on these VINE users we should consider the more product category and plot the pattern to understand the VINE members rating system. 
+
+
