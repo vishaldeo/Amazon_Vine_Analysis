@@ -23,14 +23,56 @@ In this project, We are reviewing the Electronics category to analyze datasets a
 
 | Software / Environment   |
 | ---------------------- |
-| 
-| PySpark
-| pgAdmin    
-| Google Colab
-| AWS RDS
+| PySpark  |
+| pgAdmin    | 
+| Google Colab |
+| AWS RDS |
 
 
 ## Results 
 
+![image](https://user-images.githubusercontent.com/22928255/210461087-a48bd9f3-97f2-4af4-97a0-4d8def3f9554.png)
+
+For the Electronics product category, we have 3M data which we filter out based on the creteria below :
+* Votes Greater than 20 
+
+![image](https://user-images.githubusercontent.com/22928255/210461436-7e958f76-cd2a-4cb4-8c02-917a8a69c89d.png)
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/22928255/210461257-6432c792-b6ff-4872-8779-cc83217b2a87.png">
+
+* Percetage of helpful votes to total votes should be greater than or equal to  50%.
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/22928255/210461598-2d692504-e44f-447f-a42a-67e3a4d60558.png">
+
+![image](https://user-images.githubusercontent.com/22928255/210462346-94c24a1c-4717-4855-913a-be56b551aec6.png)
+
+After the ETL process we have `50,753` reviews for `VINE` or `NON VINE` members. 
+
+
+### 1. Vine and non Vine reviews
+
+From the total reviews `50,753` , we have `1,080` `VINE` reviews which is approx 2% and 98% are `NON VINE` reviews.
+
+<img width="212" alt="image" src="https://user-images.githubusercontent.com/22928255/210462806-caea18ac-2b2b-48fd-8398-c25a426a0b1e.png">
+
+![image](https://user-images.githubusercontent.com/22928255/210463201-df0920fc-8325-4ab6-9d02-290c061068cd.png)
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/22928255/210463048-3a02f259-2098-4891-9905-3cf79ff11957.png">
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/22928255/210463078-6cacdd74-93b8-447e-bfe7-6e1afed90437.png">
+
+
+### 2. 5 Start reviews 
+
+<img width="358" alt="image" src="https://user-images.githubusercontent.com/22928255/210463511-2f78a20c-a741-46f7-9d9b-9355c4aaefaa.png">
+* Vine members gave `454` out of `1,080` reviews a 5 star rating.
+* Non-Vine members gave `23,034` out of `49,659` reviews a 5 star rating.
+
+### 3. Percentage of 5 Start reviews 
+
+<img width="576" alt="image" src="https://user-images.githubusercontent.com/22928255/210463532-1467a04c-6f0f-4c8f-af1b-8484b323debd.png">
+
+* 42% Vine members gave 5 star. 
+* 46.4% non vine members gave 5 star.
 
 ## Summary 
